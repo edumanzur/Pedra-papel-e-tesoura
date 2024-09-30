@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#papel {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 200px;
+    margin-left: 20px;
+    background-color: black;
+}
+
+#tesoura {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 200px;
+    margin-left: 20px;
+    background-color: black;
+}
+
+#pedra {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 200px;
+    background-color: black;
+}
+
+#opcao {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 2px gray;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 100px;
+    border: none;
+}
+
+h1 {
+    color: white;
+}
+
+button:hover {
+    top:-2px;
+    box-shadow:0 3px 5px #666;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+}   
